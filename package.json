@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "coffeescript": "^2.5.1",
+    "discord.js": "^14.3.0",
+    "erlpack": "github:discord/erlpack",
+    "nconf": "^0.11.0",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
+  }
+}
