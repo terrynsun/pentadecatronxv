@@ -27,8 +27,8 @@ num_letters = (s) ->
   s.replace(non_letters, '').length
 
 emoji =
-  fifteen: '744272457111961630'
-  twentyone: '790653146149814283'
+  fifteen: secrets.get 'emoji:fifteen' or '744272457111961630'
+  twentyone: secrets.get 'emoji:twentyone' or '790653146149814283'
 
 get_reaction = (msg) ->
   return null unless allowed_channel msg.channel
