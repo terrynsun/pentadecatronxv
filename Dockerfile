@@ -7,7 +7,7 @@ COPY --chown=node:node . /home/node
 WORKDIR /home/node
 USER 1000
 
-RUN npm rebuild
+RUN npm install
 
 VOLUME ["/secrets"]
 ENV SECRETS_PATH=/secrets/secrets.json
